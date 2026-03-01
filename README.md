@@ -1,4 +1,22 @@
-# aurelius
+# aurelius (Fork)
+
+> **Note:** This is a fork of the original [aurelius](https://github.com/euclio/aurelius) library.
+
+## Why This Fork?
+
+The original author hasn't updated this library for several years. After commit `464cd8571b1d35ab1332394590d408748dfd4fbb`, the original repository upgraded the Rust edition from "2018" to "2021" and refactored the core code to an asynchronous architecture. However, the companion Vim plugin [vim-markdown-composer](https://github.com/euclio/vim-markdown-composer) was never updated to support these changes.
+
+This fork serves two purposes:
+
+1. **Rollback to a compatible version** - Reverted to commit `464cd8571b1d35ab1332394590d408748dfd4fbb` to maintain compatibility with the synchronous architecture that [vim-markdown-composer](https://github.com/euclio/vim-markdown-composer) expects.
+
+2. **Add Mermaid.js support** - Added support for [Mermaid.js](https://mermaid.js.org/) diagram rendering in markdown previews.
+
+I plan to also fork [vim-markdown-composer](https://github.com/euclio/vim-markdown-composer) and update it to reference this fork directly (via Git) instead of the [crates.io](https://crates.io/crates/aurelius) version.
+
+---
+
+## Original README
 
 [aurelius](https://github.com/euclio/aurelius) is a complete solution for
 live-previewing markdown as HTML.
