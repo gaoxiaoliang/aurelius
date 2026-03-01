@@ -2,6 +2,7 @@
 name = "aurelius"
 version = "0.7.5"
 authors = ["Andy Russell <arussell123@gmail.com>"]
+rust-version = "1.82"
 documentation = "https://euclio.github.io/aurelius"
 homepage = "https://github.com/euclio/aurelius"
 keywords = ["markdown", "vim"]
